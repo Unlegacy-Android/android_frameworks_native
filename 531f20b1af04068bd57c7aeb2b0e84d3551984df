@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da9b358b_446220da",
+        "filename": "services/surfaceflinger/DisplayHardware/HWComposer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2016-10-26T21:58:06Z",
+      "side": 1,
+      "message": "Assuming we want to merge this, should we switch this to a simple ifndef instead? The commit message contains this information already.",
+      "revId": "531f20b1af04068bd57c7aeb2b0e84d3551984df",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": false
+    }
+  ]
+}
