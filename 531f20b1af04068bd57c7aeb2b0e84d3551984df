@@ -16,6 +16,24 @@
       "revId": "531f20b1af04068bd57c7aeb2b0e84d3551984df",
       "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da9b358b_84a3889e",
+        "filename": "services/surfaceflinger/DisplayHardware/HWComposer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2016-10-27T15:58:55Z",
+      "side": 1,
+      "message": "I see your point, it would look better, but I\u0027d leave this one as is on OZ. Without more things to fix, it doesn\u0027t seem worth adding another sign-off.",
+      "parentUuid": "da9b358b_446220da",
+      "revId": "531f20b1af04068bd57c7aeb2b0e84d3551984df",
+      "serverId": "d5e41ece-075f-43fb-b5a6-48951f3d7b1d",
+      "unresolved": false
     }
   ]
 }
