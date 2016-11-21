@@ -60,6 +60,10 @@ else
         DisplayHardware/HWComposer_hwc1.cpp
 endif
 
+ifeq ($(TARGET_HAS_HH_VSYNC_ISSUE),true)
+    LOCAL_CFLAGS += -DHH_VSYNC_ISSUE
+endif
+
 LOCAL_CFLAGS += -fvisibility=hidden -Werror=format
 
 LOCAL_STATIC_LIBRARIES := \
