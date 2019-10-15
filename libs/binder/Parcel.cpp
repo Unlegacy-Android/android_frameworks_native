@@ -1651,11 +1651,13 @@ status_t Parcel::continueWrite(size_t desired)
             if (objectsSize == 0) {
                 free(mObjects);
                 mObjects = NULL;
-            } else { 
+                mObjectsCapacity = 0;
+            } else {
                 size_t* objects =
                     (size_t*)realloc(mObjects, objectsSize*sizeof(size_t));
                 if (objects) {
                     mObjects = objects;
+                    mObjectsCapacity = objectsSize;
                 }
             }
             mObjectsSize = objectsSize;
